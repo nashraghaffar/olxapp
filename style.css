@@ -1,0 +1,525 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(211, 180, 211); */
+}
+
+/* NAVBAR DIV */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: fixed;
+    top: 0px;
+    background-color: #f7f8f8;
+    height: auto;
+    z-index: 1;
+
+}
+.navbar-div{
+    display: inline-block;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
+/* DIV 1 (logo) */
+.navbar-div1{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/* DIV 2 (PAKISTAN) */
+
+.country-inp{
+    background-image: url("icons8-search-50.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 10px ;
+    padding-left: 50px;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+
+/* DIV 3 (Find car. mob..) */
+
+.navbar-div2{
+      margin-left: 20px;
+      width: 15%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(10%);  
+}
+
+.country-inp2{
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 700px;
+    border: 2px solid black;
+    min-width: 100px;
+    border-radius: 5px;
+}
+.navbar-div3{
+    min-width: 100px;
+    width: 700px;
+    margin-left: 70px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(10%);  
+}
+
+/* DIV 4 (SEARCH ICON) */
+
+.navbar-div4{
+    -ms-transform: translateY(-50%);
+    transform: translateY(14%); 
+    /* transform: translateX(-10%);  */
+    background-color: #002f34;
+    height:46px;
+}
+
+/* DIV 5 LOGIN BTN */
+.navbar-div5{
+    margin-left: 40px;
+    transform: translateY(30%);  
+
+}
+.navbar-div5 a{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: large;
+    color: #002f34;
+}
+
+/* DIV 6 Sell BTN */
+
+.navbar-div6{
+    margin-left: 20px;
+    transform: translateY(15%);  
+
+}
+.navbar-div6 button {
+    background-color: white;
+    color: #002f34;
+    font-size: 13px;
+    font-weight: 800;
+    border-top: 6px solid aqua;
+    border-left: rgb(255, 209, 4) 6px solid;
+    border-right: rgb(255, 209, 4) 6px solid;
+    border-bottom: rgb(44, 44, 228) 6px solid;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+
+
+
+
+                                                    /* SUBNAV */
+
+/* Main Div */
+
+.sub-nav{
+    margin-top: 75px;
+    /* z-index: -1; */
+    background-color: white;
+    max-height: 80px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    
+}
+
+/* All Categories  */
+
+.all-cat{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #002f34;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* All Categories drop icon */
+
+.drop-icon{
+    margin-left: 5px;
+    transform: translateY(25%); 
+}
+
+/* Navbar option */
+
+.opt{
+    font-size: 15px;
+    font-family: Arial;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #002f34;
+    margin-top: 10px;
+}
+
+                                                        /* SLIDER */
+
+.slider img{
+    width: 100%;
+}
+
+                                                        /* last-search */
+
+     /* SECTION  */
+
+   
+.last-search{
+    background-color:#ebeeef ;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+/* IMAGES */
+
+.last-search-div img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Boxes */
+
+.last-search-div{
+    height: 100%;
+    width: 240px;
+    margin-left: 20px;
+    border-style: groove;
+    border:1px solid rgb(185, 182, 182) ;
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+/* BOX HEADING */
+
+.last-search-div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+/* DEAILS PARA */
+
+.last-search-div p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* FOUR BOXES MAIN BOX */
+
+.four-boxes{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+/* BASED SEARCH HDNG */
+
+.last-search-main-div h2{
+    margin-left: 30px;
+    display: inline-block;
+    /* padding-top: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* View more */
+
+.last-search-main-div a{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #002f34;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* SMall sub box for .yellow-border */
+
+.yellow-border{
+    border-left: 3px solid rgb(255, 196, 0);
+}
+
+/* Dates */
+
+.date{
+    font-size: 12px !important;
+    float: right;
+    margin-right: 10px;
+}
+
+/* FEATURED */
+
+.featured{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    top: 30px;
+    text-align: center;
+    left: 20px;
+}
+
+
+                                                       /*Fresh-Recommendation */
+
+     /* SECTION  */
+
+
+.fresh-rec{
+    background-color:white ;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* IMAGES */
+
+.fresh-rec-div img{
+    width: 150px;
+    height: 150px;
+    /* margin-top: 10px; */
+}
+
+/* Boxes */
+
+.fresh-rec-div{
+    margin-top: 30px;
+    height: 100%;
+    width: 240px;
+    margin-left: 20px;
+    border-style: groove;
+    border:1px solid rgb(185, 182, 182) ;
+    background-color: white;
+    margin-right: 20px;
+}
+
+/* BOX HEADING */
+
+.fresh-rec-div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+/* DEAILS PARA */
+
+.fresh-rec-div p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* FOUR BOXES MAIN BOX */
+
+.four-boxes{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* BASED SEARCH HDNG */
+
+.fresh-rec-main-div h2{
+    margin-left: 30px;
+    display: inline-block;
+    /* padding-top: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* SMall sub box for .yellow-border */
+
+.yellow-border{
+    border-left: 3px solid rgb(255, 196, 0);
+}
+
+/* Dates */
+
+.date{
+    font-size: 12px !important;
+    float: right;
+    margin-right: 10px;
+}
+
+/* FEATURED */
+
+.featured{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    top: 30px;
+    text-align: center;
+    left: 20px;
+}
+
+
+                                                    /* LOAD BUTTON */
+                                        
+.load-btn button{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.load-btn button:hover{
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+
+
+/* TRY SECTION */
+
+.try-sec  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    background-color: #f2f5f7;
+    margin-top: 20px;
+}
+
+.try-class-app h1{
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.try-class-app p{
+    margin-left: 60px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.mob{
+    margin-left: 50px;
+}
+
+.div3{
+    border-left: 1px solid grey;
+    border-left-style: groove;
+    height: 100px;
+    width: 300px;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.div2{
+    margin-top: 20px;
+}
+
+.div3 h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.footer{
+background-color: #ebeeef;
+border-top: rgb(187, 183, 183) 1px solid;
+  
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lists a{
+    color: rgb(65, 65, 122);
+    text-decoration: none;
+    font-size: 12px;    
+
+}
+
+.lists p{
+    color: rgb(65, 65, 122);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;    
+
+}
+.lists{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* COPYRIGHT */
+
+
+
+.copyright{
+    background-color: #002f34;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.p2{
+    color: white;
+    font-size: 12px;
+    margin-left: 700px;
+}
+.p1{
+    color: white;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
